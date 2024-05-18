@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47265484ae4c33df46e2bc5c65f82b08570eeb1e4dce3df612889cf7e084ed90
-size 379
+
+The HDR environment maps in this folder were downloaded from HDRIHaven: https://hdrihaven.com/
+They are licensed under CC0 (public domain).
+
+Converted to EXR using GIMP.
+
+Note: Do not convert the HDR images to EXR with Adobe Photoshop. It produces images that have radiance values over 65504.0 (which is the maximum value representable as a 16-bit float) clamped to Inf.
